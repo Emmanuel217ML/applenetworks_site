@@ -1,5 +1,57 @@
 :root{
-    --primary-color: #4CAF50;
-    --secondary-color: #ff9800;
-    --title: sans;
+    --primary_color:  #113F67;
+    --secondary_color: white;
+    --title_font: "serif", Arial, sans-serif;
+    --body_font: "sans-serif", Arial, "noto sans", Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: var(--body_font);
+    color: var(--secondary_color);
+    line-height: 1.6;
+}
+header, main, footer {  
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--primary_color);
+}
+h1, h2, h3, h4, h5 {
+    font-family: var(--title_font);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.logo h1 {
+    margin-left: 3px;
+}
+header {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr auto;
+}
+header nav {
+    display: grid;
+    align-items: center;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-right: 20px;
+}
+header nav ul li a {
+    color: var(--secondary_color);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
