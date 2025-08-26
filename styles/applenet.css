@@ -31,23 +31,55 @@ h1, h2, h3, h4, h5 {
 .logo h1 {
     margin-left: 3px;
 }
+.logo img {
+    margin-top: 8px;
+    border-radius: 90%;
+}
 header {
     display: grid;
     gap: 3px;
     grid-template-columns: 1fr auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     header {
-        flex-direction: column;
-        align-items: flex-start;
-        font-size: 16px;
-        width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
     }
-    nav  ul li a {
-        font-size: 12px;
-        padding: 0.3rem 0.3 rem;
+    header {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr auto;
+    }  
+    header nav ul li a {
+    color: var(--secondary_color);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 7px 6px;
+    margin: 1rem 0.2rem;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+
+    }   
+    .logo {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.2rem;
+    margin-right: 1px;
+    }
+    .logo img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-top: 6px;
+    border-radius: 60%;
+    }
+    .logo h1 {
+    margin-left: 0;
+    font-size: 16px;
     }
 }
+/* this is a test */
 header nav {
     display: grid;
     align-items: center;
