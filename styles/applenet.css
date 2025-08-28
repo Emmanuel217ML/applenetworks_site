@@ -83,6 +83,14 @@ h1, h2, h3, h4, h5 {
     font-size: 12px;
     }   
 }
+@media (max-width: 1500px) {
+    header {
+        font-size: 20px;
+    }
+    header nav {
+        padding-right: 10px;
+    }
+}
 header nav ul {
     list-style: none;
     display: flex;
