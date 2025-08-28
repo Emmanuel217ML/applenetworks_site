@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5 {
 .logo {
     display: flex;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 13px;
     margin-right: 10px;
 }
 .logo h1 {
@@ -35,41 +35,14 @@ h1, h2, h3, h4, h5 {
     margin-top: 8px;
     border-radius: 90%;
 }
-header {
-    display: grid;
-    gap: 3px;
-    grid-template-columns: 1fr auto;
-}
-@media (max-width: 500px) {
-    header {
-    flex-direction: column;
-    align-items: center;
-    }
-    header {
-    display: grid;
-    gap: 0.1rem;
-    grid-template-columns: 1fr auto;
-    }  
-    header nav ul li a {
-    color: var(--secondary_color);
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0rem 55rem;
-    margin: 0.5rem 0.5rem;
-    border-radius: 2px;
-    transition: background-color 0.3s ease;
-    font-size: 10px;
-    }
-    header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1px;
-    align-items: center;
-    padding-right: 17px;
+@media (max-width: 730px) {
+    .logo {
+        margin: 0;
+        font-family: var(--title_font);
     }
     .logo img {
     width: 40px;
-    height: 40px;
+    height: auto;
     object-fit: cover;
     margin-top: 6px;
     border-radius: 60%;
@@ -77,18 +50,44 @@ header {
     .logo h1 {
     font-size: 15px;
     }
-    .container{
-        width: 100%;
+    header nav {
+    display: flex;
+    width: 100%;
+    align-items: center; 
+    border: 5px solid;
+    gap: 1px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
     }
-}
-/* this is a test */
-header nav {
-    display: grid;
+    header nav ul {
+    list-style: none;
+    display: flex; 
+    flex: 1;
     align-items: center;
+    padding-right: 0;
+    }
+    header nav ul li {
+        text-align: center;
+        margin-left: 2px;
+    }
+    header nav ul li a {
+    color: var(--secondary_color);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--title_font);
+    padding: 0;
+    white-space: nowrap;
+    flex-shrink: 1;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    font-size: 12px;
+    }   
 }
 header nav ul {
     list-style: none;
     display: flex;
+    flex: 1;
     gap: 1px;
     align-items: center;
     padding-right: 20px;
@@ -109,6 +108,7 @@ header nav ul li a {
     align-items: center;
     padding: 0 20px;
 }
+
 header nav ul li a:hover {
     background-color: var(--secondary_color);
     color: var(--primary_color);
