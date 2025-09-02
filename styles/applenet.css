@@ -171,7 +171,7 @@ header nav ul li a:hover {
     color: var(--secondary_color);
     border: none;
     font-weight: bold;
-    padding: 10px 200px;
+    padding: 1rem 10rem;
     font-size: 2rem;
     border-radius: 5px;
     cursor: pointer;
