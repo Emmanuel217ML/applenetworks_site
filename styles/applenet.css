@@ -54,6 +54,14 @@ h5 {
     header {
         font-size: 20px;
     }
+    .main-section h1 {
+    font-size: 2.5rem;
+    margin: .2% 0 1rem 0;
+}
+    .main-section p {
+        font-size: 1.2rem;
+        margin: 0 0 1rem 0;
+    }
 
     header nav {
         padding-right: 10px;
@@ -134,7 +142,15 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-}
+    }
+    .main-section h1 {
+    font-size: 2.5rem;
+    margin: .2% 0 1rem 0;
+    }
+    .main-section p {
+        font-size: 1.2rem;
+        margin: 0 0 1rem 0;
+    }
     .main-section h1 {
         margin-top: .5%;
         font-size: 1rem;
@@ -236,14 +252,6 @@ header nav ul li a:hover {
     color: var(--primary_color);
 }
 
-.main-section h1 {
-    font-size: 2.5rem;
-    margin: .2% 0 1rem 0;
-}
-.main-section p {
-    font-size: 1.2rem;
-    margin: 0 0 1rem 0;
-}
 .main-section button {
     background-color: #3396D3;
     color: var(--secondary_color);
