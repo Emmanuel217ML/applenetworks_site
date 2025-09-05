@@ -58,6 +58,13 @@ h5 {
     header nav {
         padding-right: 10px;
     }
+    .main-section {
+    text-align: center;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
     .main-section button {
         border: none;
         font-weight: bold;
@@ -227,13 +234,7 @@ header nav ul li a:hover {
     background-color: var(--secondary_color);
     color: var(--primary_color);
 }
-.main-section {
-    text-align: center;
-    padding: 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
+
 .main-section h1 {
     font-size: 2.5rem;
     margin: .5% 0 1rem 0;
