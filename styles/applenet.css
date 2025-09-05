@@ -181,11 +181,11 @@ h5 {
     }
     .main-section h1 {
         justify-content: left;
-        font-size: .2rem;
+        font-size: 13px;
         margin: .5% 0 1rem 0;
     }
     .main-section p {
-        text-align: left;
+        justify-content: left;
         font-size: 1rem;
         margin: 0 0 1rem 0;
     }
