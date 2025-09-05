@@ -124,6 +124,9 @@ h5 {
     .main-section {
     text-align: center;
     padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
     .main-section h1 {
         margin-top: .5%;
@@ -165,6 +168,9 @@ h5 {
     .main-section {
     text-align: center;
     padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     }
     .main-section h1 {
         margin-top: .5%;
