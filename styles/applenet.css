@@ -173,7 +173,7 @@ h5 {
         flex-shrink: 1;
     }
     .main-section {
-    text-align: center;
+    text-align: left;
     padding: 20px 20px;
     display: flex;
     flex-direction: column;
