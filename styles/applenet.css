@@ -262,28 +262,25 @@ header nav ul li a:hover {
     color: black;
     
 }
-.gallery img {
-    width: 300px;
-    height: 150px;
-}
 .scroll {
-    margin: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    margin-left: 10px;
 }
 .item1 {
-    width: 300px;
+    max-width: 700px;
     height: auto;
+    margin-right: 20px;;
 }
-.item2 img{
-    display: block;
-    width: 300px;
+.item2 {
+    max-width: 700px;
     height: auto;
+    margin-right: 25px;
 }
 .item3 {
-    width: 300px;
+    max-width: 600px;
     height: auto;
 }
 .Our-products {
@@ -297,7 +294,8 @@ header nav ul li a:hover {
 .Our-products img {
     padding: 3px;
     height: 250px;
-    width: 300px;
+    width: 400px;
+    border-radius: 10px;
 }
 figure figcaption {
     text-align: center;
