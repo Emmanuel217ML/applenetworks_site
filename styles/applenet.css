@@ -262,3 +262,52 @@ header nav ul li a:hover {
     color: black;
     
 }
+.Our-products h2 {
+    color: var(--primary_color);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}
+.gallery img {
+    width: 300px;
+    height: 150px;
+}
+.scroll {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.item1 {
+    width: 300px;
+    height: auto;
+}
+.item2 img{
+    display: block;
+    width: 300px;
+    height: auto;
+}
+.item3 {
+    width: 300px;
+    height: auto;
+}
+.Our-products {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary_color);
+    overflow: auto;
+    white-space: nowrap;
+    height: fit-content;
+}
+.Our-products img {
+    padding: 3px;
+    height: 250px;
+    width: 300px;
+}
+figure figcaption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary_color);
+}
