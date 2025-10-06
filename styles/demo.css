@@ -1,0 +1,28 @@
+.Our-products {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary_color);
+    overflow: auto;
+    white-space: nowrap;
+    height: fit-content;
+    }
+    .Our-products img {
+    padding: 2px;
+    height: 70px;
+    width: 100px;
+    border-radius: 7px;
+    }
+    figure figcaption {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--primary_color);
+    }
+.Our-products figure {
+    display: none;
+    text-align: center;
+    }    
+.Our-products figure.active {
+    display: block;
+    }
+    

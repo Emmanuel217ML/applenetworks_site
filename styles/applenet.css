@@ -126,6 +126,11 @@ h5 {
     font-weight: bold;
     color: var(--primary_color);
     }
+    .scroll .pros {
+        text-align: left;
+        padding-left: 20px;
+        font-size: medium;
+    }
     .later {
     background-color: var(--secondary_color);
     color: var(--primary_color);
@@ -170,12 +175,12 @@ h5 {
     font-family: var(--body_font);
     border: none;
     transition: background-color 0.3s ease;
-    width: 150px;
+    width: 250px;
     height: 45px;
     border-radius: 20px;
     margin: 5px;
     color: var(--secondary_color);
-    background-color: lightskyblue;
+    background-color: #91C4C3;
     font-size: 1.3rem;
     float: right;
     margin-right: 15px;
@@ -187,6 +192,53 @@ h5 {
     }
     footer {
     background-color: var(--secondary_color);
+    }
+    /*The beginning of contact*/
+    .main-contact h1 {
+    font-size: 2.5rem;
+    margin: .2% 0 1rem 0;
+    }  
+    .main-contact {
+    text-align: center;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+    .product {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    }
+    .itemuno {
+    max-width: 700px;
+    height: auto;
+    margin-right: 20px;;
+    }
+    .itemdos {
+    max-width: 700px;
+    height: auto;
+    margin-right: 25px;
+    }
+    .itemtres {
+    max-width: 600px;
+    height: auto;
+    }
+    .Our-products-gallery{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--secondary_color);
+    overflow: auto;
+    white-space: nowrap;
+    height: fit-content;
+    }
+    .Our-products-gallery img {
+    padding: 3px;
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
     }
 }
 /*The page breakpoint*/
